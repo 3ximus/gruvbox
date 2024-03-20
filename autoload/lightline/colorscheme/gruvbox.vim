@@ -54,4 +54,9 @@ if exists('g:lightline')
   let s:p.normal.warning = [ [ s:bg2, s:yellow ] ]
 
   let g:lightline#colorscheme#gruvbox#palette = lightline#colorscheme#flatten(s:p)
+
+  " custom fix for the correct terminal colors
+  let g:lightline#colorscheme#gruvbox#palette.normal.left[0][2]='235'
+  let g:lightline#colorscheme#gruvbox#palette.insert.left[0][2]='235'
+  let g:lightline#colorscheme#gruvbox#palette.visual.left[0][2]='235'
 endif
