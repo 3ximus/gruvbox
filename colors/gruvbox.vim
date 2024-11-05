@@ -914,6 +914,40 @@ call s:HL('CocInfoHighlight', s:none, s:none, s:undercurl, s:yellow)
 call s:HL('CocHintHighlight', s:none, s:none, s:undercurl, s:blue)
 
 " }}}
+" DAPUI: {{{
+
+hi! link DapBreakpointSymbol GruvboxRed
+hi! link DapStoppedSymbol GruvboxGreenBold
+hi! link DapUIBreakpointsCurrentLine GruvboxYellow
+hi! link DapUIBreakpointsDisabledLine GruvboxGray
+hi! link DapUIBreakpointsInfo GruvboxAqua
+hi! link DapUIBreakpointsLine GruvboxYellow
+hi! link DapUIBreakpointsPath GruvboxBlue
+hi! link DapUICurrentFrameName GruvboxPurple
+hi! link DapUIDecoration GruvboxPurple
+hi! link DapUIEndofBuffer EndOfBuffer
+hi! link DapUIFloatBorder GruvboxAqua
+hi! link DapUILineNumber GruvboxYellow
+hi! link DapUIModifiedValue GruvboxRed
+hi! link DapUIPlayPause GruvboxGreen
+hi! link DapUIRestart GruvboxGreen
+hi! link DapUIScope GruvboxBlue
+hi! link DapUISource GruvboxFg1
+hi! link DapUIStepBack GruvboxBlueBold
+hi! link DapUIStepInto GruvboxBlueBold
+hi! link DapUIStepOut GruvboxBlueBold
+hi! link DapUIStepOver GruvboxBlueBold
+hi! link DapUIStop GruvboxBlueBold
+hi! link DapUIStoppedThread GruvboxBlue
+hi! link DapUIThread GruvboxBlue
+hi! link DapUIType GruvboxOrange
+hi! link DapUIUnavailable GruvboxGray
+hi! link DapUIWatchesEmpty GruvboxGray
+hi! link DapUIWatchesError GruvboxRed
+hi! link DapUIWatchesValue GruvboxYellow
+hi! link DapUIWinSelect GruvboxYellow
+
+" }}}
 
 " Filetype specific -----------------------------------------------------------
 " Diff: {{{
